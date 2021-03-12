@@ -1,0 +1,25 @@
+{
+    "name": "oci-policy-language",
+    "displayName": "OCI Policy Language",
+    "description": "OCI Policy language highlighter ",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "opl",
+            "aliases": ["OCI Policy", "opl"],
+            "extensions": ["opl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "opl",
+            "scopeName": "source.ocipolicy",
+            "path": "./syntaxes/opl.tmLanguage.json"
+        }]
+    }
+}

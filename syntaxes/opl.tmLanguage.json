@@ -1,0 +1,65 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "OCI Policy",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": 
+			[
+				{
+				"name": "keyword.control.opl",
+				"match": "(?i)\\b(allow|deny|to|in|where)\\b"
+				},
+				{
+					"name": "keyword.subject.opl",
+					"match": "(?i)\\b(group|dynamic-group|id|any-user)\\b"
+				},
+				{
+					"name": "keyword.verbs.opl",
+					"match": "(?i)\\b(inspect|read|use|manage)\\b"
+				},
+				{
+					"name": "keyword.resourcetypes.opl",
+					"match": "(?i)\\b(all-resources|cluster-family|compute-management-family|data-catalog-family|database-family|dns|file-family|instance-family|object-family|virtual-network-family|volume-family)\\b"
+				},
+				{
+					"name": "keyword.locations.opl",
+					"match": "(?i)\\b(tenancy|compartment|id)\\b"
+				},
+				{
+					"name": "keyword.conditions.opl",
+					"match": "(?i)\\b(any|all)\\b"
+				}
+
+			]
+		},
+		"strings": {
+			"patterns": [
+				{
+					"name": "string.quoted.double.opl",
+					"begin": "\"",
+					"end": "\"",
+					"patterns": [
+						{
+							"name": "constant.character.escape.opl",
+							"match": "\\\\."
+						}
+					]
+				},
+				{
+					"begin": "'",
+					"end": "'",
+					"name": "string.quoted.single.opl"
+				}
+			]
+		}
+	},
+	"scopeName": "source.ocipolicy"
+}
