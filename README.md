@@ -1,1 +1,3 @@
-Visual Studio Code (VSCode) language extention for  OCI Language Policy
+## Visual Studio Code (VSCode) language extention for  OCI Language Policy
+In OCI a policy is a document that specifies who can access which Oracle Cloud Infrastructure resources that your company has, and how. A policy simply allows a group  to work in certain ways with specific types of resources  in a particular compartment. More details in the link bellow:
+https://docs.oracle.com/en-us/iaas/Content/Identity/Reference/policyreference.htm
