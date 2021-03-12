@@ -22,5 +22,9 @@
             "scopeName": "source.ocipolicy",
             "path": "./syntaxes/opl.tmLanguage.json"
         }]
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/joaofelipes/oci-policy-language.git"
+      }
 }
