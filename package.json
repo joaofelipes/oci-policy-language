@@ -3,7 +3,7 @@
     "icon": "images/oci-cloud.ico",
     "displayName": "OCI Policy Language",
     "description": "OCI Policy language highlighter ",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "joaofelipes",
     "engines": {
         "vscode": "^1.54.0"
