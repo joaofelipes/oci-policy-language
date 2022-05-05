@@ -9,7 +9,9 @@ This extention is language highlighter for OCI Policies. OCI a policy is a docum
 ### Screenshot
 <p align=center>
 <img src="images/screenshot.png" width=75%>
-<br/><em>(Toggle Test File)</em></p>
+<br/><em>(Toggle Test File)</em>
+<a href="https://www.buymeacoffee.com/joaofelipes" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+</p>
 
 [vscodelnk]: <https://marketplace.visualstudio.com/items?itemName=joaofelipes.oci-policy-language&ssr=false#overview>
 [ocilnk]: <https://marketplace.visualstudio.com/items?itemName=joaofelipes.oci-policy-language&ssr=false#overview>
